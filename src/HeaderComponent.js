@@ -1,11 +1,12 @@
 import React from "react";
 
 export const HeaderComponent = (props) => {
+  const { handleDrawerToogleOpen } = props;
   return (
     <>
       <nav className="navbar">
         <div className="header-title">Demo Stream</div>
-        <a href="#" className="toggle-button">
+        <a href="#" className="toggle-button" onClick={handleDrawerToogleOpen}>
           <span className="bar"></span>
           <span className="bar"></span>
           <span className="bar"></span>
