@@ -1,7 +1,5 @@
 .App {
   font-family: sans-serif;
-  width: auto;
-  margin: 0px;
 }
 body {
   margin: 0px;
@@ -174,7 +172,16 @@ body {
   border-radius: 5px;
   cursor: pointer;
 }
+.playstore-item:hover {
+  background-color: #6e6d6d;
+}
 /* 626 */
+.social-media-item:hover {
+  background-color: #6e6d6d;
+}
+.footer-link-item:hover {
+  background-color: #6e6d6d;
+}
 @media (max-width: 500px) {
   .toggle-button {
     display: flex;
@@ -188,6 +195,10 @@ body {
 }
 
 @media (max-width: 626px) {
+  .App {
+    width: auto;
+    margin: 0px;
+  }
   .footer-icons {
     display: flex;
     justify-content: space-between;
@@ -210,8 +221,9 @@ body {
   .footer-link-item {
     padding: 0.3rem 0.3rem 0.3rem 0.4rem;
     margin-top: 0.2rem;
+    max-width: 10rem;
     margin-bottom: 0.2rem;
-    margin-right: 0.001rem;
+    margin-right: 2rem;
     border-radius: 5px;
     cursor: pointer;
   }
