@@ -1,5 +1,7 @@
 .App {
   font-family: sans-serif;
+  width: auto;
+  margin: 0px;
 }
 body {
   margin: 0px;
