@@ -1,2 +1,2 @@
-# movie-app-c
+# movie-app
 Created with CodeSandbox
