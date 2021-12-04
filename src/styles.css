@@ -109,6 +109,14 @@ body {
 .footer-list-item {
   list-style: none;
 }
+.footer-list-divider {
+  list-style: none;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+  color: white;
+}
 .footer-link-item {
   display: block;
   color: white;
@@ -116,7 +124,7 @@ body {
   padding: 0.5rem;
   margin-top: 0.5rem;
   margin-bottom: 0.5rem;
-  margin-right: 0.001rem;
+
   border-radius: 5px;
   cursor: pointer;
 }
@@ -186,7 +194,9 @@ body {
     align-items: center;
     flex-direction: column;
   }
-
+  .footer-list-divider {
+    display: none;
+  }
   .playstore-item {
     padding: 0.2rem;
     margin-top: 0.2rem;

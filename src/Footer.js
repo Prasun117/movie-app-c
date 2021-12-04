@@ -14,29 +14,34 @@ export const Footer = (props) => {
         <ul className="footer-list">
           <li className="footer-list-item">
             <a href="#" className="footer-link-item">
-              Home |
+              Home
             </a>
           </li>
+          <li className="footer-list-divider">|</li>
           <li className="footer-list-item">
             <a href="#" className="footer-link-item">
-              Terms and Conditions |
+              Terms and Conditions
             </a>
           </li>
+          <li className="footer-list-divider">|</li>
           <li className="footer-list-item">
             <a href="#" className="footer-link-item">
-              Privacy Policy |
+              Privacy Policy
             </a>
           </li>
+          <li className="footer-list-divider">|</li>
           <li className="footer-list-item">
             <a href="#" className="footer-link-item">
-              Collection Statement |
+              Collection Statement
             </a>
           </li>
+          <li className="footer-list-divider">|</li>
           <li className="footer-list-item">
             <a href="#" className="footer-link-item">
-              Help |
+              Help
             </a>
           </li>
+          <li className="footer-list-divider">|</li>
           <li className="footer-list-item">
             <a href="#" className="footer-link-item">
               Manage Account
