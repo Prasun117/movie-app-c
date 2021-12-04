@@ -58,7 +58,9 @@ export const Home = (props) => {
                   <CardMedia
                     className={classes.media}
                     component="img"
-                    image={MediaImage}
+                    image={
+                      "https://rawcdn.githack.com/Prasun117/movie-app-c/39873c6c17bbf90feea476386f0737ddc818b644/src/assests/movie-series.jpg"
+                    }
                     alt="series"
                   />
                   <div
