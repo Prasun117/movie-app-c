@@ -3,8 +3,8 @@ import "./styles.css";
 import { useState } from "react";
 import { HeaderComponent } from "./HeaderComponent";
 import { Footer } from "./Footer";
-import { SubHeader } from "./SubHeader";
-import { BrowserRouter as Router, Route, Link, Switch } from "react-router-dom";
+
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import { Home } from "./Home";
 import { Movies } from "./Movies";
 import { Series } from "./Series";
